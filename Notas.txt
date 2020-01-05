@@ -1,0 +1,10 @@
+    "bcrypt-nodejs": "0.0.3", //Encriptar passwords
+    "body-parser": "^1.19.0", //Convertir a objeto usable por javascript
+    "connect-multiparty": "^2.2.0", //Subir archivos
+    "express": "^4.17.1", //Framework http
+    "jwt-simple": "^0.5.6", //Gestionar tokens & autentifacion
+    "moment": "^2.24.0", //Fechas
+    "mongoose": "^5.8.4" //MongoDB en NodeJS
+
+  "devDependencies": {
+    "nodemon": "^2.0.2" //Refrescar el servidor ante los cambios
