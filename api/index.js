@@ -1,3 +1,4 @@
+// Nuevas caracteristicas de Javascript, funcion flecha etc.
 'use strict'
 
 var mongoose = require ('mongoose');
