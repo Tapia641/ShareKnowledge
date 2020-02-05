@@ -9,7 +9,7 @@ var port = 3800;
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost:27017/share_knowledge', {useMongoClient: true}).then(
     () => {
-        console.log("Conexion DB realizada.");
+        console.log("Conexion BD realizada.");
 
         //CREAMOS EL SERVIDOR
         app.listen(port, () => {
